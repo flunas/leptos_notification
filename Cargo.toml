@@ -2,8 +2,24 @@
 name = "leptos_notification"
 version = "0.1.0"
 edition = "2021"
+authors = ["flunas <flunas@163.com>"]
+description = "A beautiful notification system for Leptos applications with animated toasts"
+license = "MIT"
+repository = "https://github.com/flunas/leptos_notification"
+homepage = "https://github.com/flunas/leptos_notification"
+documentation = "https://docs.rs/leptos_notification"
+readme = "README.md"
+keywords = ["leptos", "notification", "toast", "webassembly", "wasm"]
+categories = ["gui", "web-programming"]
+rust-version = "1.75"
 
 [dependencies]
-console_error_panic_hook = "0.1.7"
 leptos = { version = "0.8.19", features = ["csr"] }
-web-sys = { version = "0.3", features = ["console"] }
+console_error_panic_hook = "0.1.7"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[[bin]]
+name = "demo"
+path = "demo_app/demo.rs"

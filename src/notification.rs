@@ -194,6 +194,7 @@ fn NotificationItem(
             style:align-items="center"
             style:position="relative"
             style:overflow="hidden"
+            style:transition="all 0.3s linear"
         >
             <span style="font-size: 18px;">{icon}</span>
             <span style="flex: 1;">{notification.message.clone()}</span>

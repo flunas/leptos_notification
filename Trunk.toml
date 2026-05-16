@@ -1,5 +1,5 @@
 [build]
-target = "index.html"
+target = "demo_app/index.html"
 
 [serve]
 port = 3000
