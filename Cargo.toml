@@ -1,6 +1,6 @@
 [package]
 name = "leptos_notification"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2021"
 authors = ["flunas <flunas@163.com>"]
 description = "A beautiful notification system for Leptos applications with animated toasts"

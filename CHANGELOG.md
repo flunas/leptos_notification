@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.2.1] - 2026-05-16
+
+### Fixed
+- 更新 README 和文档中的版本号
+
 ## [0.2.0] - 2026-05-16
 
 ### Added
