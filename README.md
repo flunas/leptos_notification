@@ -18,7 +18,7 @@
 
 ```toml
 [dependencies]
-leptos_notification = "0.1.0"
+leptos_notification = "0.2.0"
 ```
 
 ## 快速开始
