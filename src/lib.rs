@@ -32,12 +32,7 @@
 mod notification;
 
 pub use notification::{
-    ToastContainer,
-    NotificationType,
-    Notification,
-    add_notification,
-    show_info,
-    show_success,
-    show_warning,
-    show_error,
+    add_notification, add_notification_custom, set_default_icons, set_default_styles, set_defaults,
+    show_error, show_info, show_success, show_warning, DefaultIcons, DefaultStyles, Notification,
+    NotificationType, ToastContainer,
 };
